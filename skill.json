@@ -1,5 +1,5 @@
 {
-  "name": "website-style-analyzer-skill",
+  "name": "genpark-website-style-analyzer-skill",
   "version": "1.0.0",
   "description": "GenPark AI Agent Skill - Parse simple CSS color hex arrays to infer branding HSL schemes and generate styled UI token guidelines.",
   "author": "genpark",

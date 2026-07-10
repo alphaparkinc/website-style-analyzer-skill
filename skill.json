@@ -1,0 +1,32 @@
+{
+  "name": "website-style-analyzer-skill",
+  "version": "1.0.0",
+  "description": "Parse simple CSS color hex arrays to infer branding HSL schemes and generate styled UI token guidelines.",
+  "author": "alphaparkinc",
+  "category": "design",
+  "tags": [
+    "design-system",
+    "branding",
+    "css-tokens",
+    "hsl",
+    "UI-styling"
+  ],
+  "inputs": {
+    "hex_colors": {
+      "type": "array",
+      "description": "List of color hex codes detected on target site: [string]."
+    }
+  },
+  "outputs": {
+    "branding_theme": {
+      "type": "string",
+      "description": "Derived theme categorization (e.g. dark, vibrant, pastel)."
+    },
+    "hsl_tokens": {
+      "type": "array",
+      "description": "Mapped HSL representations: [string]."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}

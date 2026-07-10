@@ -1,4 +1,4 @@
-# website-style-analyzer-skill
+# genpark-website-style-analyzer-skill
 
 > **GenPark AI Agent Skill** -- HEX color-to-HSL design token compiler.
 

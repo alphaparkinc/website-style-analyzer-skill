@@ -1,8 +1,8 @@
 {
   "name": "website-style-analyzer-skill",
   "version": "1.0.0",
-  "description": "Parse simple CSS color hex arrays to infer branding HSL schemes and generate styled UI token guidelines.",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Parse simple CSS color hex arrays to infer branding HSL schemes and generate styled UI token guidelines.",
+  "author": "genpark",
   "category": "design",
   "tags": [
     "design-system",
